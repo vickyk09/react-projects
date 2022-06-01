@@ -1,0 +1,113 @@
+/* Styling for App.js */ 
+
+main{
+  margin: auto;
+  text-align: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title h1{
+  font-size: 4em;
+  color: black;
+  font-family: sans-serif; 
+}
+.title .underline{
+  margin-top: -3rem;
+  width: 12rem;
+  height: 0.5rem;
+  background: deepskyblue;
+  color: aqua;
+}
+
+/* Styling for Review.js */
+article{
+  margin: 2rem;
+  padding: 2rem;
+  width: 40%;
+  box-shadow: 0px 0px  10px rgba(0, 255, 255, 0.5),
+  0px 0px 10px rgba(0, 0, 255, 0.5);
+  border-radius: 1rem;
+}
+
+.img-container img{
+  width: 10rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+.quote-icon{
+  position: absolute;
+  top: 13.3rem;
+  left: 43.5rem;
+  background-color: transparent;
+  color: deepskyblue;
+  font-size: 2rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+}
+.author{
+  color: black;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.job{
+  font-size: 1em;
+  margin-top: -1.2rem;
+  color: deepskyblue;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.info{
+  padding:1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.button-container{
+  background: transparent;
+  margin-top: -1rem;
+}
+.prev-btn,.next-btn{
+  background: transparent;
+  color: aqua;
+  font-size: 1em;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+.random-btn{
+  margin-top: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  padding: 0.25rem;
+  margin-right: 1rem;
+  border-radius:0.25rem ;
+  font-weight: 600;
+  color: deepskyblue;
+}
+.random-btn:hover{
+  background: aqua;
+  cursor: pointer;
+  color: black;
+}
+.prev-btn:hover{
+  cursor: pointer;
+  background: grey;
+}
+.next-btn:hover{
+  cursor: pointer;
+  background: grey;
+}
