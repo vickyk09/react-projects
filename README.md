@@ -1,3 +1,3 @@
 Follow the steps after cloning this repo:
-npm install
+npm install and then 
 npm start
